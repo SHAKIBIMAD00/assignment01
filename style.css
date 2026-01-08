@@ -180,8 +180,64 @@ header{
     line-height: 20px;
 }
 
-
-
+/* image text section */
+.image-text{
+    padding: 60px 100px;
+    background: whitesmoke;
+}
+.imt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.im{
+    width: 50%;
+    margin: 0px 10px;
+}
+.im img{
+    width: 100%;
+    height: auto;
+}
+.tex{
+    width: 50%;
+    margin: 0px 10px;
+}
+.tex h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: #30b869d5;
+}
+.tex h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    
+}
+.tex p{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    line-height: 30px;
+}
+.tex ul{
+    margin-left: -50px;
+}
+.tex ul li i{
+    margin-right: 10px;
+    padding: 5px;
+    background: #30B868;
+    size: 8px;
+    color: white;
+    border-radius: 50%;
+}
+.tex ul li{
+    list-style: none;
+    margin: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
 
 
 
