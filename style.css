@@ -63,7 +63,7 @@ header{
 .herotext ul li{
     align-items: center;
     display: inline;
-    padding: 5px 15px;
+    padding: 5px 20px;
     background: white;
     color: #30B868;
     font-size: 17px;
@@ -145,6 +145,17 @@ header{
     justify-content: center;
     align-items: center;
 }
+.card-heading h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: -10px;
+}
+.card-heading p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #627382;
+}
 .card-main{
     display: flex;
     gap: 25px;
@@ -176,7 +187,7 @@ header{
 .card1 p{
     font-size: 16px;
     font-weight: 400;
-    color: black;
+    color: #627382;
     line-height: 20px;
 }
 
@@ -193,7 +204,7 @@ header{
 }
 .im{
     width: 50%;
-    margin: 0px 10px;
+    margin: 0px 20px;
 }
 .im img{
     width: 100%;
@@ -201,7 +212,7 @@ header{
 }
 .tex{
     width: 50%;
-    margin: 0px 10px;
+    margin: 0px 20px;
 }
 .tex h3{
     font-size: 20px;
@@ -217,7 +228,7 @@ header{
 .tex p{
     font-size: 16px;
     font-weight: 400;
-    color: black;
+    color: #627382;
     line-height: 30px;
 }
 .tex ul{
@@ -233,13 +244,39 @@ header{
 }
 .tex ul li{
     list-style: none;
-    margin: 12px;
+    margin: 15px;
     font-size: 18px;
     font-weight: 600;
     color: black;
 }
 
+/* cta section */
 
+.cta{
+    padding: 60px 100px;
+    background: whitesmoke;
+}
+.cta-section{
+    background: #c6c4be;
+    padding: 60px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.cta-section h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+.cta-section p{
+    color: #2a3c4b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn i{
+    margin-left: 5px;
+}
 
 
 
