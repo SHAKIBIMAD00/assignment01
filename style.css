@@ -3,7 +3,7 @@
   font-family: "Open Sans", sans-serif;
   
 }
-
+/* header */
 header{
     background: white;
      padding: 10px 100px;
@@ -42,6 +42,113 @@ header{
     transition: .3s;
     cursor: pointer;
 }
+
+/* hero section */
+.hero{
+    padding: 70px 120px;
+    height: 600px;
+    background-image: url(./hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.hero2{
+    margin-top: 100px;
+    
+}
+.herotext ul li{
+    align-items: center;
+    display: inline;
+    padding: 5px 15px;
+    background: white;
+    color: #30B868;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 100px;
+    margin-bottom: -10px;
+    
+}
+.heroheading h1{
+    font-size: 75px;
+    font-weight: 800;
+    gap: 10px;
+    align-items: center;
+    text-transform: capitalize
+}
+.heroheading .hc1{
+    color: rgba(255, 255, 255, 0.934);
+    margin-bottom: -10px;
+    
+}
+
+.heroheading .hc2{
+    color: #30B868;
+    margin-top: -10px;
+}
+.heroheading p{
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-top: -20px;
+}
+
+.btn1{
+    background: #30B868;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    
+}
+.btn1:hover{
+    background: white;
+    color: #30B868;
+    transition: 0.3s;
+}
+.btn1 i{
+    margin-right: 5px;
+}
+.btn2 i{
+    margin-right: 5px;
+}
+.btn2{
+     background: transparent;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 40px;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+.btn2:hover{
+    background: #30B868;
+    color: white;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
 footer{
     background: #001931;
      padding: 10px 100px;
